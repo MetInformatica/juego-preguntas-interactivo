@@ -317,14 +317,22 @@ body {
     .computadora-izquierda2 {
         position: absolute !important;
         width: 150px  !important;
-        max-width: 45%;
         height: auto  !important;
         left: 50%  !important;
         bottom: 25px  !important;
         transform: translateX(-50%)  !important;
        z-index: 1  !important;
     }
-
+.pantalla-inicio {
+    min-height: 100vh;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
     .contenido-inicio {
         width: 100%;
         padding: 15px;
