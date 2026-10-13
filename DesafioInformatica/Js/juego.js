@@ -237,7 +237,7 @@ document.addEventListener("DOMContentLoaded", function () {
           mensaje.style.color = "#2ecc71";
           respondioBien = true;
 
-          imgFeedback.src = "imagenes/mancuello-ok.png";
+          imgFeedback.src = "Imagenes/mancuello-ok.png";
           feedbackImagen.style.display = "block";
           console.log("Imagen correcta:", imgFeedback.src);
 
@@ -262,7 +262,7 @@ document.addEventListener("DOMContentLoaded", function () {
           mensaje.textContent = "La respuesta correcta era: " + opcionCorrecta.texto;
           mensaje.style.color = "#f1c40f";
 
-          imgFeedback.src = "imagenes/mancuello-incorrecto.png";
+          imgFeedback.src = "Imagenes/mancuello-incorrecto.png";
           feedbackImagen.style.display = "block";
           console.log("Imagen incorrecta:", imgFeedback.src);
 
