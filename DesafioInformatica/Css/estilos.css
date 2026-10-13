@@ -315,9 +315,12 @@ body {
     }
 
     .computadora-izquierda2 {
-        max-width: 280px;
-        width: 70%;
+        position: static;
+        width: 180px;
+        max-width: 45%;
         height: auto;
+        margin: 20px auto;
+        display: block;
     }
 
     .contenido-inicio {
