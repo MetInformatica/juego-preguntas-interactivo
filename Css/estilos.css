@@ -215,7 +215,7 @@ body {
 .pantalla-inicio {
   position: relative;
   min-height: 100vh;
-  background-image: url("../Imagenes/fondo.png"); /* tu foto */
+  background-image: red !important; /* tu foto */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
