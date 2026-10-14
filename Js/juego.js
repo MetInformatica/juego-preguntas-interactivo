@@ -194,7 +194,12 @@ document.addEventListener("DOMContentLoaded", function () {
   const contenedorOpciones = document.getElementById("opciones");
   const mensaje = document.getElementById("mensaje");
   const btnSiguiente = document.getElementById("btnSiguiente");
+ 
+const feedbackImagen = document.getElementById("feedbackImagen");
+const imgFeedback = document.getElementById("imgFeedback");
 
+const audioCorrecto = new Audio("sonidos/correcto.mp4");
+const audioIncorrecto = new Audio("sonidos/incorrecto.mp4");
   function calcularNota(cantidadCorrectas) {
     return (cantidadCorrectas * 0.5).toFixed(1);
   }
@@ -331,14 +336,5 @@ document.addEventListener("DOMContentLoaded", function () {
   btnSiguiente.addEventListener("click", alSiguiente);
 });
 
-  const btnComenzar = document.getElementById("btnComenzar");
-  const pantallaInicio = document.getElementById("inicio");
-  // ...
-  const btnSiguiente = document.getElementById("btnSiguiente");
 
-    const audioCorrecto = new Audio("sonidos/correcto.mp4");
-  const audioIncorrecto = new Audio("sonidos/incorrecto.mp4");
-
-          audioIncorrecto.currentTime = 0;
-          audioIncorrecto.play();
         
