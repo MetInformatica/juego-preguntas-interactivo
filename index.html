@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafío Informático</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+  <!-- PANTALLA DE INICIO -->
+  <main id="inicio" class="pantalla-inicio">
+    <img src="imagenes/computadora-izquierda2.png"
+         alt="Computadora"
+         class="computadora-izquierda2">
+
+    <div class="contenido-inicio">
+      <div class="icono">💻</div>
+      <h1>DESAFÍO<br>INFORMÁTICO</h1>
+      <p class="subtitulo">Poné a prueba tus conocimientos</p>
+      <p class="cantidad">20 PREGUNTAS</p>
+      <button id="btnComenzar">COMENZAR JUEGO</button>
+      <!-- Créditos -->
+    <p class="creditos">
+      Trabajo realizado por:<br>
+      <strong>Galarza Ryan</strong> — 2º "A"
+      </p>
+    </div>
+  </main>
+
+  <!-- PANTALLA DE PREGUNTA -->
+  <div id="pregunta" class="pantalla-pregunta" style="display: none;">
+    <div class="contenido-pregunta">
+      <p class="numero-pregunta" id="numeroPregunta"></p>
+      <h2 id="textoPregunta"></h2>
+      <p class="ayuda">Elija una opción.</p>
+
+      <div class="opciones" id="opciones"></div>
+
+      <p id="mensaje"></p>
+
+      <!-- ESTO ES LO QUE FALTA -->
+      <div id="feedbackImagen" class="feedback-imagen" style="display: none;">
+        <img id="imgFeedback" src="" alt="Resultado">
+      </div>
+
+      <button id="btnSiguiente" style="display: none;">Siguiente</button>
+    </div>
+  </div>
+
+  <script src="js/juego.js"></script>
+</body>
+
+</html>
