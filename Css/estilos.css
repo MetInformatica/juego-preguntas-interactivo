@@ -314,17 +314,23 @@ body {
         text-align: center;
     }
 
-    .computadora-izquierda2 {
-        max-width: 280px;
-        width: 70%;
-        height: auto;
-    }
+   .computadora-izquierda2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+    width: 170px;
+    height: auto;
+    z-index: 1;
+}
 
     .contenido-inicio {
         width: 100%;
         padding: 15px;
         box-sizing: border-box;
         text-align: center;
+        position: relative;
+        z-index: 2;
     }
 
     #btnComenzar {
