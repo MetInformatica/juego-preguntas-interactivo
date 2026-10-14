@@ -442,3 +442,52 @@ body {
     padding: 9px 24px;
   }
 }
+.pantalla-pregunta h2 {
+    font-size: 22px;
+    margin-bottom: 5px;
+    line-height: 1.15;
+}
+
+.numero-pregunta {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.ayuda {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.opciones {
+    gap: 6px;
+}
+
+.opcion {
+    padding: 8px 12px;
+    font-size: 15px;
+    min-height: 0;
+}
+
+#mensaje {
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 1.15;
+}
+
+.feedback-imagen {
+    margin-top: 3px;
+    height: 80px;
+}
+
+.feedback-imagen img {
+    height: 80px;
+    width: auto;
+    max-width: 100px;
+    object-fit: contain;
+}
+
+#btnSiguiente {
+    margin-top: 4px;
+    padding: 8px 22px;
+    font-size: 15px;
+}
