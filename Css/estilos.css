@@ -506,4 +506,14 @@ body {
         transform: translateX(-50%) !important;
         z-index: 10 !important;
     }
+    .creditos {
+    position: absolute !important;
+    bottom: 250px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    width: 100% !important;
+    text-align: center !important;
+    color: #0d47a1 !important;
+    z-index: 20 !important;
+}
 }
