@@ -215,7 +215,7 @@ body {
 .pantalla-inicio {
   position: relative;
   min-height: 100vh;
-  background-image: url("../imagenes/fondo.png"); /* tu foto */
+  background-image: url("../Imagenes/fondo.png"); /* tu foto */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -233,7 +233,7 @@ body {
   background-color: #0d47a1;
 
   /* tu imagen de fondo de preguntas */
-  background-image: url("../imagenes/fondo-preguntas.png");
+  background-image: url("../Imagenes/fondo-preguntas.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
