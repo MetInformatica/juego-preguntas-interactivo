@@ -425,18 +425,20 @@ body {
     font-size: 18px;
   }
 
-  .feedback-imagen {
-    margin-top: 5px;
-  }
+.feedback-imagen {
+    margin-top: 4px;
+    height: 105px;
+}
 
-  .feedback-imagen img {
+.feedback-imagen img {
     width: auto;
-    max-width: 130px;
-    max-height: 150px;
-  }
+    height: 105px;
+    max-width: 120px;
+    object-fit: contain;
+}
 
   #btnSiguiente {
-    margin-top: 8px;
-    padding: 10px 25px;
+    margin-top: 5px;
+    padding: 9px 24px;
   }
 }
