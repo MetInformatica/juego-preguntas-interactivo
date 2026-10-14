@@ -491,3 +491,18 @@ body {
     padding: 8px 22px;
     font-size: 15px;
 }
+/* ARREGLO DEFINITIVO COMPUTADORA EN CELULAR */
+@media (max-width: 600px) {
+
+    .computadora-izquierda2 {
+        position: fixed !important;
+        width: 160px !important;
+        height: auto !important;
+
+        left: 50% !important;
+        bottom: 45px !important;
+
+        transform: translateX(-50%) !important;
+        z-index: 5 !important;
+    }
+}
