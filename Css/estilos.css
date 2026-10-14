@@ -491,10 +491,51 @@ body {
     padding: 8px 22px;
     font-size: 15px;
 }
+/* ===== AJUSTE FINAL CELULAR ===== */
 @media (max-width: 600px) {
 
     .pantalla-inicio {
-        overflow: visible !important;
+        position: relative !important;
+        width: 100% !important;
+        height: 100vh !important;
+        min-height: 100vh !important;
+        overflow: hidden !important;
+    }
+
+    .contenido-inicio {
+        position: relative !important;
+        width: 100% !important;
+        height: 100% !important;
+        padding: 0 !important;
+    }
+
+    #btnComenzar {
+        position: absolute !important;
+        top: 62% !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        margin: 0 !important;
+        white-space: nowrap !important;
+        z-index: 20 !important;
+    }
+
+    .creditos {
+        position: absolute !important;
+        top: 72% !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        width: 90% !important;
+        margin: 0 !important;
+        text-align: center !important;
+        color: #555 !important;
+        font-size: 13px !important;
+        line-height: 1.4 !important;
+        z-index: 20 !important;
+    }
+
+    .creditos strong {
+        color: #0d47a1 !important;
+        font-size: 15px !important;
     }
 
     .computadora-izquierda2 {
@@ -502,24 +543,8 @@ body {
         width: 150px !important;
         height: auto !important;
         left: 50% !important;
-        bottom: 60px !important;
+        bottom: 20px !important;
         transform: translateX(-50%) !important;
         z-index: 10 !important;
     }
-.creditos {
-    position: absolute !important;
-    bottom: 330px !important;
-    left: 50% !important;
-    transform: translateX(-50%) !important;
-    width: 100% !important;
-    text-align: center !important;
-    color: #555555 !important;
-    font-size: 13px !important;
-    line-height: 1.4 !important;
-    z-index: 20 !important;
-}
-    .creditos strong {
-    color: #123f73 !important;
-    font-size: 15px !important;
-}
 }
