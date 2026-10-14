@@ -518,4 +518,8 @@ body {
     line-height: 1.4 !important;
     z-index: 20 !important;
 }
+    .creditos strong {
+    color: #123f73 !important;
+    font-size: 15px !important;
+}
 }
