@@ -546,3 +546,63 @@ body {
         z-index: 10 !important;
     }
 }
+/* ===== CORRECCIÓN DEFINITIVA DEL INICIO ===== */
+
+.pantalla-inicio {
+    position: relative !important;
+    width: 100% !important;
+    height: 100vh !important;
+    min-height: 100vh !important;
+
+    background: url("../Imagenes/fondo.png") center center / cover no-repeat !important;
+
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    overflow: hidden !important;
+}
+
+/* Contenido principal */
+.contenido-inicio {
+    position: relative !important;
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 2 !important;
+}
+
+/* Título */
+.contenido-inicio h1 {
+    color: #ffffff !important;
+    text-shadow: 2px 3px 6px #000000 !important;
+}
+
+/* Computadora */
+.computadora-izquierda2 {
+    position: absolute !important;
+    width: 120px !important;
+    height: auto !important;
+
+    left: 50% !important;
+    bottom: 100px !important;
+    transform: translateX(-50%) !important;
+
+    z-index: 10 !important;
+}
+
+/* Botón comenzar */
+#btnComenzar {
+    position: absolute !important;
+    top: 58% !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+}
+
+/* Créditos */
+.creditos {
+    position: absolute !important;
+    top: 68% !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    width: 90% !important;
+    text-align: center !important;
+}
