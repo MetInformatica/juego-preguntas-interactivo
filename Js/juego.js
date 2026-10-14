@@ -242,7 +242,7 @@ const audioIncorrecto = new Audio("sonidos/incorrecto.mp4");
           mensaje.style.color = "#2ecc71";
           respondioBien = true;
 
-          imgFeedback.src = "Imagenes/mancuello-ok.png";
+       imgFeedback.src = "/juego-preguntas-interactivo/Imagenes/mancuello-ok.png";
           feedbackImagen.style.display = "block";
           console.log("Imagen correcta:", imgFeedback.src);
 
@@ -267,7 +267,7 @@ const audioIncorrecto = new Audio("sonidos/incorrecto.mp4");
           mensaje.textContent = "La respuesta correcta era: " + opcionCorrecta.texto;
           mensaje.style.color = "#f1c40f";
 
-          imgFeedback.src = "Imagenes/mancuello-incorrecto.png";
+      imgFeedback.src = "/juego-preguntas-interactivo/Imagenes/mancuello-incorrecto.png";
           feedbackImagen.style.display = "block";
           console.log("Imagen incorrecta:", imgFeedback.src);
 
