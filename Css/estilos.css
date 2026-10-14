@@ -395,3 +395,48 @@ body {
         z-index: 20;
     }
 }
+/* AJUSTE FINAL PREGUNTAS EN CELULAR */
+@media (max-width: 600px) {
+
+  .pantalla-pregunta {
+    padding: 10px;
+  }
+
+  .contenido-pregunta {
+    width: 95%;
+    max-height: 100vh;
+  }
+
+  .ayuda {
+    margin-bottom: 15px;
+  }
+
+  .opciones {
+    gap: 8px;
+  }
+
+  .opcion {
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+
+  #mensaje {
+    margin-top: 12px;
+    font-size: 18px;
+  }
+
+  .feedback-imagen {
+    margin-top: 5px;
+  }
+
+  .feedback-imagen img {
+    width: auto;
+    max-width: 130px;
+    max-height: 150px;
+  }
+
+  #btnSiguiente {
+    margin-top: 8px;
+    padding: 10px 25px;
+  }
+}
