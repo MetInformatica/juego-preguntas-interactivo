@@ -294,3 +294,56 @@ body {
   font-size: 16px;
   font-weight: bold;
 }
+/* ===== ADAPTACIÓN PARA CELULARES ===== */
+@media (max-width: 600px) {
+
+    .contenido-inicio h1 {
+        font-size: 38px;
+        line-height: 1.05;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    .subtitulo {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .cantidad {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .computadora-izquierda2 {
+        max-width: 280px;
+        width: 70%;
+        height: auto;
+    }
+
+    .contenido-inicio {
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    #btnComenzar {
+        font-size: 18px;
+        padding: 12px 20px;
+    }
+
+    .creditos {
+        font-size: 13px;
+        text-align: center;
+    }
+}
+.pantalla-inicio {
+    min-height: 100vh;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
