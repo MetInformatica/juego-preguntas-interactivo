@@ -634,11 +634,11 @@ body {
     transform: translate(-50%, -50%);
     z-index: 5;
 }
-/* ===== COMPUTADORA - POSICIÓN DEFINITIVA ===== */
+/* ===== COMPUTADORA DEFINITIVA ===== */
 
-#inicio > .computadora-izquierda2 {
+#inicio .contenido-inicio .computadora-izquierda2 {
     position: absolute !important;
-    width: 115px !important;
+    width: 110px !important;
     height: auto !important;
 
     left: 50% !important;
@@ -648,5 +648,12 @@ body {
     transform: translateX(-50%) !important;
     margin: 0 !important;
 
-    z-index: 15 !important;
+    z-index: 20 !important;
 }
+#btnComenzar {
+    position: absolute !important;
+    top: 58% !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+}
+
