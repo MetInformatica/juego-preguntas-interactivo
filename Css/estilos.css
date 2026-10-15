@@ -623,3 +623,14 @@ body {
     position: relative;
     z-index: 10;
 }
+/* COMPUTADORA ENCIMA DEL BOTÓN COMENZAR */
+
+.computadora-izquierda2 {
+    position: absolute;
+    width: 170px;
+    height: auto;
+    left: 50%;
+    top: 54%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
