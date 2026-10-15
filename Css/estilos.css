@@ -661,4 +661,55 @@ body {
     z-index: 30 !important;
     white-space: nowrap !important;
 }
+/* ===== AJUSTE SOLO PARA PC ===== */
+
+@media (min-width: 601px) {
+
+    #inicio .contenido-inicio {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        height: 100% !important;
+    }
+
+    #inicio .contenido-inicio h1 {
+        font-size: 65px !important;
+        line-height: 0.95 !important;
+    }
+
+    #inicio .subtitulo {
+        font-size: 22px !important;
+        margin-top: 20px !important;
+    }
+
+    #inicio .cantidad {
+        font-size: 18px !important;
+        margin-top: 12px !important;
+    }
+
+    #inicio .contenido-inicio .computadora-izquierda2 {
+        position: static !important;
+        width: 140px !important;
+        height: auto !important;
+        transform: none !important;
+        margin: 15px 0 10px 0 !important;
+    }
+
+    #inicio #btnComenzar {
+        position: static !important;
+        transform: none !important;
+        margin: 0 !important;
+        font-size: 20px !important;
+        padding: 17px 40px !important;
+    }
+
+    #inicio .creditos {
+        position: static !important;
+        transform: none !important;
+        margin-top: 20px !important;
+        width: auto !important;
+        color: white !important;
+    }
+}
 
