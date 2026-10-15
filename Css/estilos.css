@@ -634,3 +634,19 @@ body {
     transform: translate(-50%, -50%);
     z-index: 5;
 }
+/* ===== POSICIÓN FINAL COMPUTADORA ===== */
+
+#inicio .computadora-izquierda2 {
+    position: absolute !important;
+    width: 150px !important;
+    height: auto !important;
+
+    left: 50% !important;
+    top: auto !important;
+    bottom: 34% !important;
+
+    transform: translateX(-50%) !important;
+    margin: 0 !important;
+
+    z-index: 20 !important;
+}
