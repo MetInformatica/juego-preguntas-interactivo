@@ -642,10 +642,10 @@ body {
     height: auto !important;
 
     left: 50% !important;
-    top: auto !important;
-    bottom: 50% !important;
+    top: 57% !important;
+    bottom: auto !important;
 
-    transform: translateX(-50%) !important;
+    transform: translate(-50%, -50%) !important;
     margin: 0 !important;
 
     z-index: 20 !important;
