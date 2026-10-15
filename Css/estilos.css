@@ -606,3 +606,20 @@ body {
     width: 90% !important;
     text-align: center !important;
 }
+/* ===== ACOMODAR COMPUTADORA SOBRE EL BOTÓN ===== */
+
+.pantalla-inicio .mascota,
+.pantalla-inicio .computadora,
+.pantalla-inicio .personaje {
+    position: absolute;
+    left: 50%;
+    bottom: 30%;
+    transform: translateX(-50%);
+    z-index: 5;
+}
+
+.pantalla-inicio .btn-comenzar,
+.pantalla-inicio button {
+    position: relative;
+    z-index: 10;
+}
